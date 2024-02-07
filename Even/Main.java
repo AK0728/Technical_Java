@@ -1,3 +1,4 @@
+// Given one integer n and return true if it is an even number else return false.
 import java.util.Scanner;
 
 public class Main
