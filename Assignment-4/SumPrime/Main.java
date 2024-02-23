@@ -13,7 +13,7 @@ public class Main {
         return true;
     }
 
-    static boolean sumPrime(int a, int b){
+    static boolean SumPrime(int a, int b){
         if(isPrime(a) && isPrime(b)){
             int sum = a + b;
             return isPrime(sum);
@@ -28,7 +28,7 @@ public class Main {
         System.out.println();
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-        System.out.println(sumPrime(a, b));
+        System.out.println(SumPrime(a, b));
     }
     
 }
