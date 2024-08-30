@@ -23,7 +23,9 @@ public class ShortString {
             }
             
             sb.append(s.charAt(i));
-            sb.append(count);
+            if(count >1){
+                sb.append(count);
+            }
             i = i+count-1;
         }
         return sb.toString();
